@@ -9,7 +9,7 @@ import androidx.lifecycle.lifecycleScope
 import androidx.recyclerview.widget.LinearLayoutManager
 import com.jnetai.patentmonitor.PatentMonitor
 import com.jnetai.patentmonitor.R
-import com.jnetai.patentmonitor.binding.ActivityMainBinding
+import com.jnetai.patentmonitor.databinding.ActivityMainBinding
 import com.jnetai.patentmonitor.model.Patent
 import kotlinx.coroutines.launch
 

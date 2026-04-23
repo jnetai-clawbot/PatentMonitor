@@ -3,7 +3,7 @@ package com.jnetai.patentmonitor.ui
 import android.view.LayoutInflater
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
-import com.jnetai.patentmonitor.binding.ItemMainBinding
+import com.jnetai.patentmonitor.databinding.ItemMainBinding
 import com.jnetai.patentmonitor.model.Patent
 
 class PatentAdapter(private val onClick: (Patent) -> Unit) : RecyclerView.Adapter<PatentAdapter.VH>() {
@@ -13,8 +13,8 @@ class PatentAdapter(private val onClick: (Patent) -> Unit) : RecyclerView.Adapte
     override fun getItemCount() = items.size
     override fun onBindViewHolder(h: VH, pos: Int) {
         val item = items[pos]
-        h.binding.titleText.text = item.title
-        h.binding.subtitleText.text = item.patentNumber + " · " + item.status
-        h.binding.root.setOnClickListener { onClick(item) }
+        h.databinding.titleText.text = item.title
+        h.databinding.subtitleText.text = item.patentNumber + " · " + item.status
+        h.databinding.root.setOnClickListener { onClick(item) }
     }
 }

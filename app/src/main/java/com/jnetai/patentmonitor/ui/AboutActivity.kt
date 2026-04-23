@@ -4,7 +4,7 @@ import android.content.Intent
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
 import com.jnetai.patentmonitor.BuildConfig
-import com.jnetai.patentmonitor.binding.ActivityAboutBinding
+import com.jnetai.patentmonitor.databinding.ActivityAboutBinding
 import org.json.JSONObject
 import java.net.URL
 

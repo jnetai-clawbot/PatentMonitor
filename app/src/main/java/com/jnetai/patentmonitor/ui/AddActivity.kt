@@ -6,7 +6,7 @@ import androidx.appcompat.app.AppCompatActivity
 import androidx.lifecycle.lifecycleScope
 import com.jnetai.patentmonitor.PatentMonitor
 import com.jnetai.patentmonitor.R
-import com.jnetai.patentmonitor.binding.ActivityAddBinding
+import com.jnetai.patentmonitor.databinding.ActivityAddBinding
 import com.jnetai.patentmonitor.model.Patent
 import kotlinx.coroutines.launch
 
