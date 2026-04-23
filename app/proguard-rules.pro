@@ -1,0 +1,4 @@
+-keep class com.jnetai.patentmonitor.data.** { *; }
+-keep class com.jnetai.patentmonitor.model.** { *; }
+-keepattributes Signature
+-keepattributes *Annotation*
